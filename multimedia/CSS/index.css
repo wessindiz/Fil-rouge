@@ -6,6 +6,7 @@
 
 body {
     line-height: 1,5;
+    background: linear-gradient(rgb(45, 11, 124) 30%, purple);
 }
 
 a {
@@ -22,7 +23,7 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
 }
 
 .navmenu {
@@ -56,12 +57,16 @@ main {
     min-height: 90vh;
     background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
 }
-
+ 
 h1 {
     text-align: center;
     padding-top: 30px;
     font-size: 100px;
     color: rgb(60, 130, 235);
+}
+
+p {
+    color: goldenrod;
 }
 
 .section1{
@@ -73,6 +78,10 @@ h1 {
     text-align: center;
 }
 
+.section1 p {
+    font-size: 40px;
+}
+
 .section2 {
     min-height: 90vh;
     background: url("../images/accueil/ingeson.jpg") no-repeat center/ cover;
@@ -82,6 +91,10 @@ h1 {
     font-size: 25px;
     text-align: center;
     padding: 8%;
+}
+
+.section3 p {
+    font-size: 40px;
 }
 
 .section4 {
@@ -112,38 +125,71 @@ h1 {
     text-align: center;
 }
 
-.section6 {
-    height: 100vh;
-    display: flex;
-    overflow-x:scroll;
+.section5 p {
+    font-size: 50px;
+    text-shadow: 0.04em 0.05em 0.05em rgba(0, 0, 255, 0.904);
 }
+
+.section6 {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.section6::-webkit-scrollbar {
+    display: none;
+}   
 
 .din{
     background: url("../images/artistes/din.jpg") no-repeat center/ cover;
     height: 100%;
-    width: 50%
+    min-width: 50vw;
 }
 
 .torec {
     background: url("../images/artistes/torec.jpg") no-repeat center/ cover;
     height: 100%;
-    width: 50%
+    min-width: 50vw;
 }
 
 .smay {
     background: url("../images/artistes/smay.jpg") no-repeat center/ cover;
     height: 100%;
-    width: 50%
+    min-width: 50vw;
 }
 
 .wess {
     background: url("../images/artistes/wess.jpg") no-repeat center/ cover;
     height: 100%;
-    width: 50%
+    min-width: 50vw;;
 }
 
 .nera {
     background: url("../images/artistes/nera.jpg") no-repeat center/ cover;
     height: 100%;
-    width: 50%
+    min-width: 50vw;
+}
+
+.reseau {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: grey;
+    /* opacity: 0.5; */
+}
+
+.reseau ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fab {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
 }
