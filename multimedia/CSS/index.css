@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1,5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    height: 200px;
+    background-color: rgb(9, 10, 12);
+}
+
+.navmenu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navmenu ul li {
+    padding: 0 10px ;
+}
+
+.navmenu ul li a {
+    color: darkgoldenrod;
+}
+
+.navmenu ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+main {
+    min-height: 90vh;
+    background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 100px;
+    color: rgb(60, 130, 235);
+}
+
+.section1{
+    padding:8%;
+}
+
+.section1 p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.section2 {
+    min-height: 90vh;
+    background: url("../images/accueil/ingeson.jpg") no-repeat center/ cover;
+}
+
+.section3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 8%;
+}
+
+.section4 {
+    height:50vh;
+    display: flex;
+}
+
+.section4 .micro {
+    height: 100%;
+    width: 50%;
+    background: url("../images/accueil/rode.jpg") no-repeat center/ cover;
+}
+
+.section4 .photo{
+    height:100%;
+    width: 50%;
+    background: url("../images/accueil/canon.jpg") no-repeat center/ cover;
+}
+
+.section5 {
+    font-size: 25px;
+    text-align: center;
+    padding: 8%;
+}
+
+.section5 p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.section6 {
+    height: 100vh;
+    display: flex;
+    overflow-x:scroll;
+}
+
+.din{
+    background: url("../images/artistes/din.jpg") no-repeat center/ cover;
+    height: 100%;
+    width: 50%
+}
+
+.torec {
+    background: url("../images/artistes/torec.jpg") no-repeat center/ cover;
+    height: 100%;
+    width: 50%
+}
+
+.smay {
+    background: url("../images/artistes/smay.jpg") no-repeat center/ cover;
+    height: 100%;
+    width: 50%
+}
+
+.wess {
+    background: url("../images/artistes/wess.jpg") no-repeat center/ cover;
+    height: 100%;
+    width: 50%
+}
+
+.nera {
+    background: url("../images/artistes/nera.jpg") no-repeat center/ cover;
+    height: 100%;
+    width: 50%
+}
