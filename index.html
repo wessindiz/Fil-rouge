@@ -5,6 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="CSS/style.css">
       <!--ceci est le lien du document global css-->
+
       <link rel="stylesheet" href="CSS/style-menu.css">
       <!--ceci est le lien du document menu css-->
       <script src="https://kit.fontawesome.com/d6af0024d7.js" crossorigin="anonymous"></script>
@@ -13,17 +14,31 @@
    </head>
    <body class="linear-gradient">
       <header>
-         <button id="open" href="#"><i class="fas fa-bars"></i></button>
+         <a href="index.html"><img src="images/menu/ logo24kor.png" alt="24K" class="logo"></a>
          <nav class="navmenu">
-            <a href="index.html"><img src="images/menu/ logo24kor.png" alt="24K" class="logo"></a>
             <ul class="main-menu">
-               <li><a href="#">Accueil</a></li>
+               <li><a href="index.html">Accueil</a></li>
                <li><a href="#">Nos studios</a></li> 
                <li><a href="#">Nos tarifs</a></li> 
                <li><a href="#">Le label</a></li> 
-               <li><a href="#">Contactez-nous</a></li>  
+               <li><a href="#">Contactez-nous</a></li>
             </ul>
          </nav>
+         <button id="open">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars" id="bars"></i>
+               <i class="fas fa-times" id="cross"></i>
+             </a>
+             <script src="./javascript/menu.js"></script>
+             <!--Liste des items du menu hamburger-->
+             <ul id="open-menu">
+               <li><a href="index.html">Accueil</a></li>
+               <li><a href="./Pages/text.html">Nos studios</a></li> 
+               <li><a href="#">Nos tarifs</a></li> 
+               <li><a href="#">Le label</a></li> 
+               <li class="last_element"><a href="#">Contactez-nous</a></li>
+            </ul>
+         </button>
       </header>
       <main>
          <h1>24 Carats Studio</h1>
@@ -52,7 +67,7 @@
             <div class="nera"></div>  
          </section>
          <div id="scrollup">
-            <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+            <a href="#top"><i class="fas fa-arrow-circle-up" id="arrow"></i></a>
          </div>
          <div class="reseau">
          <ul class="icons">
