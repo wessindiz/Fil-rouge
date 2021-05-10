@@ -1,3 +1,4 @@
+/*CSS pour la mise en forme de base de la page html*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,47 +18,7 @@ ul {
     list-style: none;
 }
 
-header {
-    width: 100%;
-    margin: auto;
-}
-
-.logo {
-    width: 200px;
-}
-
-.navmenu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 30px;
-    height: 200px;
-    background-color: rgb(9, 10, 12);
-}
-
-.navmenu ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navmenu ul li {
-    padding: 0 10px ;
-}
-
-.navmenu ul li a {
-    color: darkgoldenrod;
-}
-
-.navmenu ul li a:hover {
-    position: relative;
-    bottom: -15%;
-}
-
-.navmenu ul.main-menu {
-    flex: 1;
-    margin-left: 20px;
-}
-
+/*CSS pour la mise en forme du main*/
 main {
     min-height: 90vh;
     background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
@@ -180,6 +141,7 @@ p {
     min-width: 50vw;
 }
 
+/* CSS poue la mise en forme du pied de page*/
 .reseau {
     display: flex;
     justify-content: space-between;
@@ -245,3 +207,34 @@ footer {
     top: -15%;
 }
 
+/*mis en forme du bouton "retour en haut"*/
+#scrollup i{
+    color: rgb(230, 174, 34);
+    font-size: 30px;
+}
+
+#scrollup{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0.6;
+
+
+}
+
+/* Nouvelles règles pour le format tablette (entre 400px et 961px)*/ 
+@media screen and (min-width: 401px) and (max-width: 960px){
+    .section4 .micro {
+        height: 100%;
+        width: 50vw;
+        position:relative;
+        background: url("../images/accueil/rode.jpg") no-repeat center/ cover;
+    }
+    
+    .section4 .photo{
+        height:100%;
+        width: 50vw;
+        position: relative;
+        background: url("../images/accueil/canon.jpg") no-repeat center/ cover;
+    }
+}
