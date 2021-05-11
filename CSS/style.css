@@ -10,6 +10,20 @@ body {
     background: linear-gradient(rgb(45, 11, 124) 30%, rgb(92, 0, 128));
 }
 
+/*CSS pour la mise en forme du main*/
+main {
+    min-height: 85vh;
+    background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
+}
+ 
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 80px;
+    color: rgb(108, 174, 250);
+    text-shadow: 0.06em 0.06em 0.05em rgb(184, 68, 238);
+}
+
 a {
     text-decoration: none;
 }
@@ -18,33 +32,18 @@ ul {
     list-style: none;
 }
 
-/*CSS pour la mise en forme du main*/
-main {
-    min-height: 90vh;
-    background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
-}
- 
-h1 {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 80px;
-    color: rgb(90, 166, 252);
-    text-shadow: 0.05em 0.03em 0.05em rgb(167, 30, 231);
-}
 
 p {
     color: rgb(230, 174, 34);
 }
 
 .section1{
-    padding:8%;
+    padding:7%;
 }
 
-
 .section1 p {
-    font-size: 25px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 0.04em 0.05em 0.05em rgba(0, 0, 255, 0.904);
 }
 
@@ -56,7 +55,7 @@ p {
 .section3 {
     font-size: 25px;
     text-align: center;
-    padding: 8%;
+    padding: 7%;
 }
 
 .section3 p {
@@ -82,9 +81,8 @@ p {
 }
 
 .section5 {
-    font-size: 25px;
     text-align: center;
-    padding: 8%;
+    padding: 7%;
 }
 
 .section5 p {
@@ -142,32 +140,75 @@ p {
 }
 
 
+
 /* Nouvelles règles pour le format tablette (entre 400px et 990px)*/ 
 @media screen and (min-width: 401px) and (max-width: 990px){
+
+    main {
+        min-height: 60vh;
+    }
+
     h1{
         font-size: 45px;
     }
-
-    main {
-        min-height: 90vh;
-        background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
+    
+    .section1 p {
+        font-size: 25px;
     }
 
-    .section3 p{
-        font-size: 12px;
+    .section2 {
+        min-height: 65vh;
     }
+    
+    .section3 p {
+        font-size: 25px;
+    }
+
+    .section4 {
+        height:40vh;
+    }
+
+    .section5 p {
+        font-size: 25px;
+    }
+
+    .section6 {
+        height: 70vh;
 }
 
-/* Nouvelles règles pour le format mobile (400px)*/ 
-@media screen and (max-width: 400px){
-    h1{
-        font-size: 30px;
-        color: tomato;
-    }
+}
 
+/* Nouvelles règles pour le format mobile (420px)*/ 
+@media screen and (max-width: 420px){
     main {
-        min-height: 50vh;
-        background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
+        min-height: 60vh;
     }
 
+    h1{
+        font-size: 35px;
+    }
+    
+    .section1 p {
+        font-size: 17px;
+    }
+
+    .section2 {
+        min-height: 40vh;
+    }
+    
+    .section3 p {
+        font-size: 17px;
+    }
+
+    .section4 {
+        height:30vh;
+    }
+
+    .section5 p {
+        font-size: 18px;
+    }
+
+    .section6 {
+        height: 45vh;
+}
 }
