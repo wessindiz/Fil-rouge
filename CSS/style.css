@@ -1,3 +1,6 @@
+/* FEUILLE DE STYLE PAGE D'ACCUEIL */
+
+
 /*CSS pour la mise en forme de base de la page html*/
 *{
     box-sizing: border-box;
@@ -10,7 +13,7 @@ body {
     background: linear-gradient(rgb(45, 11, 124) 30%, rgb(92, 0, 128));
 }
 
-/*CSS pour la mise en forme du main*/
+
 main {
     min-height: 85vh;
     background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
@@ -18,18 +21,11 @@ main {
  
 h1 {
     text-align: center;
+    font-family: 'Chakra Petch', sans-serif;    
     padding-top: 30px;
     font-size: 80px;
-    color: rgb(108, 174, 250);
-    text-shadow: 0.06em 0.06em 0.05em rgb(184, 68, 238);
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
+    color: rgb(85, 159, 243);
+    text-shadow: 0.03em 0.02em 0.01em rgb(255, 255, 255);
 }
 
 
@@ -210,5 +206,5 @@ p {
 
     .section6 {
         height: 45vh;
-}
+    }
 }

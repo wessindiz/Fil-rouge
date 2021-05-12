@@ -1,0 +1,84 @@
+/* FEUILLE DE STYLE PAGE NOS STUDIOS */
+
+
+/*CSS pour la mise en forme de base de la page html*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1,5;
+    background: linear-gradient(rgb(13, 31, 189) 70%, rgb(113, 5, 156));
+}
+
+
+main {
+    min-height: 85vh;
+    background: url("../images/studio/platine.jpg") no-repeat center/ cover;
+}
+ 
+h1 {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;    padding-top: 30px;
+    font-size: 80px;
+    color: rgb(85, 159, 243);
+    text-shadow: 0.03em 0.02em 0.01em rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-shadow: 0.04em 0.05em 0.05em rgba(6, 6, 7, 0.904);
+    font-family:'Chakra Petch', sans-serif;
+    margin: 50px;
+}
+.section1 {
+    min-height: 90vh;
+    background: url("../images/studio/studio.jpg") no-repeat center/ cover;
+}
+
+.section2{
+    height: 50vh;
+    display: flex;
+}
+.record{
+    height: 100%;
+    width: 50%;
+    background: url("../images/studio/record3.jpg") no-repeat center/ cover;
+}
+.micro{
+    height: 100%;
+    width: 50%;
+    background: url("../images/studio/rode.jpg") no-repeat center/ cover;
+}
+
+p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    margin: 3%;
+    /* font-family:'Chakra Petch', sans-serif; */
+}
+
+.section4 {
+    min-height: 90vh;
+    background: url("../images/studio/studiophoto.jpg") no-repeat center/ cover;
+}
+
+.section5{
+    height: 60vh;
+    display: flex;
+}
+.photo{
+    height: 100%;
+    width: 50%;
+    background: url("../images/studio/canon.jpg") no-repeat center/ cover;
+}
+.camera{
+    height: 100%;
+    width: 50%;
+    background: url("../images/studio/camera.jpg") no-repeat center/ cover;
+}
