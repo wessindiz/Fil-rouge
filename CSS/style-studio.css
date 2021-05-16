@@ -10,75 +10,119 @@
 
 body {
     line-height: 1,5;
-    background: linear-gradient(rgb(13, 31, 189) 70%, rgb(113, 5, 156));
+    background: linear-gradient(rgb(58, 13, 165) 70%, rgb(73, 15, 128));
 }
+
 
 
 main {
     min-height: 85vh;
-    background: url("../images/studio/platine.jpg") no-repeat center/ cover;
+    background: url("../images/studio/platine1.jpg") no-repeat center/ cover;
 }
- 
 h1 {
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;    padding-top: 30px;
+    font-family: 'Jura', sans-serif;
+    padding-top: 30px;
     font-size: 80px;
     color: rgb(85, 159, 243);
     text-shadow: 0.03em 0.02em 0.01em rgb(255, 255, 255);
 }
-
 h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: darkgoldenrod;
     text-shadow: 0.04em 0.05em 0.05em rgba(6, 6, 7, 0.904);
-    font-family:'Chakra Petch', sans-serif;
-    margin: 50px;
+    font-family: 'Jura', sans-serif;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
-.section1 {
-    min-height: 90vh;
-    background: url("../images/studio/studio.jpg") no-repeat center/ cover;
-}
-
-.section2{
+.section1{
     height: 50vh;
     display: flex;
 }
-.record{
+.section1 .record1{
     height: 100%;
     width: 50%;
-    background: url("../images/studio/record3.jpg") no-repeat center/ cover;
+    background: url("../images/studio/record1.jpg") no-repeat center/ cover;
 }
-.micro{
+.section1 .record2{
     height: 100%;
     width: 50%;
-    background: url("../images/studio/rode.jpg") no-repeat center/ cover;
+    background: url("../images/studio/record2.jpg") no-repeat center/ cover;
 }
-
 p{
+    font-family: 'Jura', sans-serif;
     font-size: 30px;
     color: rgb(255, 255, 255);
     text-align:justify;
     margin: 3%;
-    /* font-family:'Chakra Petch', sans-serif; */
 }
-
-.section4 {
-    min-height: 90vh;
-    background: url("../images/studio/studiophoto.jpg") no-repeat center/ cover;
+.video{
+    margin-bottom: -0.25em;
+    width: 100%;
 }
-
-.section5{
-    height: 60vh;
+.section3{
+    height: 65vh;
     display: flex;
 }
-.photo{
+.section3 .photo{
     height: 100%;
-    width: 50%;
-    background: url("../images/studio/canon.jpg") no-repeat center/ cover;
+    width: 60%;
+    background: url("../images/studio/photo.jpg") no-repeat center/ cover;
 }
-.camera{
+.section3 .camera{
     height: 100%;
     width: 50%;
-    background: url("../images/studio/camera.jpg") no-repeat center/ cover;
+    background: url("../images/studio/camera1.jpg") no-repeat center/ cover;
+}
+
+/* Nouvelles règles pour le format tablette (entre 400px et 990px)*/ 
+@media screen and (min-width: 401px) and (max-width: 990px){
+
+    main {
+        min-height: 60vh;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .section1 {
+        height: 26vh;
+    }
+    
+    .section3{
+        height: 45vh;
+    }
+    
+    p{
+        font-size: 28px;        
+    }
+}
+
+/* Nouvelles règles pour le format mobile (420px)*/ 
+@media screen and (max-width: 420px){
+    main {
+        min-height: 60vh;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .section1 {
+        height: 24vh;
+    }
+    
+    .section3{
+        height: 24vh;
+    }
+    
+    p{
+        font-size: 16px;        
+    }
 }

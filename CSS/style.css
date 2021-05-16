@@ -21,7 +21,8 @@ main {
  
 h1 {
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;    
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
     padding-top: 30px;
     font-size: 80px;
     color: rgb(85, 159, 243);
@@ -31,6 +32,7 @@ h1 {
 
 p {
     color: rgb(230, 174, 34);
+    font-family: 'Jura', sans-serif;
 }
 
 .section1{
@@ -39,6 +41,7 @@ p {
 
 .section1 p {
     text-align: center;
+    padding-right: 1em;
     font-size: 35px;
     text-shadow: 0.04em 0.05em 0.05em rgba(0, 0, 255, 0.904);
 }
@@ -95,6 +98,7 @@ p {
 .section6 {
     height: 95vh;
     width: 100%;
+    position: relative;
     display: flex;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
