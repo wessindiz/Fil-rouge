@@ -89,16 +89,15 @@ p{
     h2{
         font-size: 40px;
     }
+    p{
+        font-size: 28px;        
+    }
     .section1 {
         height: 26vh;
     }
     
     .section3{
         height: 45vh;
-    }
-    
-    p{
-        font-size: 28px;        
     }
 }
 
